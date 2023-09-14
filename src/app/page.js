@@ -30,10 +30,10 @@ export default function Home() {
       </div>
       Read <Link href="/posts/first-post">this page!</Link><br></br>
       <div className={styles.center}>
-      <h1 className="title">
+      <h1 className="title">Learn
 
 </h1>
-        Learn
+        
         <Image
           className={styles.logo}
           src="/next.svg"
