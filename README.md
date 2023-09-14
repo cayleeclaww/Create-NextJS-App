@@ -1,3 +1,11 @@
+Create Next.js App
+
+This project will use Next.js documentation to build a complete web application with React from scratch.
+
+The project will utilize the documentation to address setting up; navigating between pages; assets, Metadata, and CSS; pre-rendering and data fetching; dynamic routes; API routes; deployment of app; plus SEO and related topics. By completing this project, I will demonstrate working knowledge of the above, and apply this to building my next website, www.AutoimmuneEats.com.
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

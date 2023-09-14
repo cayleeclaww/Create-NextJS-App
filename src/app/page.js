@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -27,8 +28,12 @@ export default function Home() {
           </a>
         </div>
       </div>
-
+      Read <Link href="/posts/first-post">this page!</Link><br></br>
       <div className={styles.center}>
+      <h1 className="title">
+
+</h1>
+        Learn
         <Image
           className={styles.logo}
           src="/next.svg"
@@ -40,6 +45,7 @@ export default function Home() {
       </div>
 
       <div className={styles.grid}>
+        
         <a
           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
           className={styles.card}
