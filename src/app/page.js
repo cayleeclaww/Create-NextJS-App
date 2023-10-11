@@ -33,7 +33,7 @@
 //       <h1 className="title">Learn
 
 // </h1>
-        
+
 //         <Image
 //           className={styles.logo}
 //           src="/next.svg"
@@ -45,7 +45,7 @@
 //       </div>
 
 //       <div className={styles.grid}>
-        
+
 //         <a
 //           href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
 //           className={styles.card}
@@ -104,6 +104,10 @@ import Head from "next/head";
 import Layout, { siteTitle } from "./components/layout";
 import utilStyles from "./utils.module.css";
 // import { getSortedPostsData } from "../lib/posts";
+import 'bootstrap/dist/css/bootstrap.css';
+
+{/* <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> */}
+
 
 // export async function getStaticProps() {
 //   const allPostsData = getSortedPostsData();
@@ -116,6 +120,7 @@ import utilStyles from "./utils.module.css";
 export default function Home({ allPostsData }) {
   return (
     <Layout home>
+     
       <Head>
         <title>{siteTitle}</title>
       </Head>
@@ -141,7 +146,6 @@ export default function Home({ allPostsData }) {
           ))} */}
         </ul>
       </section>
-      
     </Layout>
   );
 }
